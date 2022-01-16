@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="salesapp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/salesapp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/salesapp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="about.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="about.h" />
+		<Unit filename="add_good.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="add_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="admin_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="appmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cashier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_good_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_good_name.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_good_price.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_good_purchase_price.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_user_name.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_user_pwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="change_user_username.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="check_user_status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="common.h" />
+		<Unit filename="connect_to_db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="connect_to_db.h" />
+		<Unit filename="customer_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="customer_mod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db_error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db_error.h" />
+		<Unit filename="db_query.h" />
+		<Unit filename="db_update.h" />
+		<Unit filename="del_good.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="del_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="disable_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="draw_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="draw_window.h" />
+		<Unit filename="enable_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="find_good_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="find_good_name.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="find_user_id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="find_username.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_good_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_good_price.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_input.h" />
+		<Unit filename="get_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_user_id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_user_name.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="get_user_role.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="good_mod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init.h" />
+		<Unit filename="init_create_db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init_create_db_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init_db_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init_grant_priviliges.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.h" />
+		<Unit filename="list_goods.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list_users.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="login_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="login_to_db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="login_to_db.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="query_good.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="safe_exit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="safe_exit.h" />
+		<Unit filename="seller_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="show_good.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="unknown_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="unknown_cmd.h" />
+		<Unit filename="user_info.h" />
+		<Unit filename="user_role_select.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verify_user_passwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wait_for_enter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wait_for_enter.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

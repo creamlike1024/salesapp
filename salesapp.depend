@@ -1,0 +1,596 @@
+# depslib dependency file v1.0
+1639292503 source:d:\c\salesapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"interface.h"
+
+1639226810 d:\c\salesapp\appmain.h
+
+1639290006 source:d:\c\salesapp\about.c
+	<stdio.h>
+	"draw_window.h"
+	"wait_for_enter.h"
+
+1638268869 d:\c\salesapp\draw_window.h
+
+1639299107 source:d:\c\salesapp\draw_window.c
+	<stdio.h>
+	<stdlib.h>
+
+1639299220 source:d:\c\salesapp\get_cmd.c
+	<stdio.h>
+	"common.h"
+
+1639234691 d:\c\salesapp\common.h
+
+1639131748 d:\c\salesapp\get_cmd.h
+
+1639299238 source:d:\c\salesapp\get_str.c
+	<stdio.h>
+
+1638343615 d:\c\salesapp\get_str.h
+
+1639293662 source:d:\c\salesapp\appmain.c
+	<stdio.h>
+	"common.h"
+	"interface.h"
+	"login_to_db.h"
+	"init.h"
+	"draw_window.h"
+	"get_input.h"
+	"about.h"
+	"unknown_cmd.h"
+
+1639306975 d:\c\salesapp\login_to_db.h
+
+1639306728 d:\c\salesapp\init.h
+	"mysql.h"
+
+1638348125 d:\c\salesapp\about.h
+
+1639299015 source:d:\c\salesapp\connect_to_db.c
+	<stdio.h>
+	"mysql.h"
+	"db_error.h"
+
+1639306456 d:\c\salesapp\connect_to_db.h
+
+1639306975 d:\c\salesapp\db_error.h
+
+1639293897 source:d:\c\salesapp\db_error.c
+	<stdio.h>
+	<stdlib.h>
+	"mysql.h"
+
+1639300358 source:d:\c\salesapp\init.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"db_error.h"
+	"init.h"
+	"wait_for_enter.h"
+
+1639299295 source:d:\c\salesapp\init_create_db.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639299304 source:d:\c\salesapp\init_create_db_user.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639303422 source:d:\c\salesapp\init_db_init.c
+	<string.h>
+	<stdio.h>
+	"mysql.h"
+	"db_error.h"
+	"get_input.h"
+	"db_query.h"
+	"common.h"
+
+1639299328 source:d:\c\salesapp\init_grant_priviliges.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639299390 source:d:\c\salesapp\login_to_db.c
+	<stdio.h>
+	"mysql.h"
+	"connect_to_db.h"
+	"draw_window.h"
+	"get_input.h"
+	"wait_for_enter.h"
+	"interface.h"
+
+1639299417 source:d:\c\salesapp\safe_exit.c
+	<stdlib.h>
+	"mysql.h"
+
+1639131726 d:\c\salesapp\safe_exit.h
+	"mysql.h"
+
+1639131313 source:d:\c\salesapp\main_interface.c
+	<stdio.h>
+	<stdlib.h>
+	"main_interface.h"
+	"common.h"
+	"draw_window.h"
+	"get_cmd.h"
+	"mysql.h"
+	"safe_exit.h"
+
+1639131276 d:\c\salesapp\main_interface.h
+	"mysql.h"
+
+1639141046 source:d:\c\salesapp\db_query_username.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639141595 source:d:\c\salesapp\db_find_username.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639142133 source:d:\c\salesapp\db_verify_user_passwd.c
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"db_error.h"
+	"db_query.h"
+
+1639298050 d:\c\salesapp\db_query.h
+	"mysql.h"
+
+1639299549 source:d:\c\salesapp\login_interface.c
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+	"get_input.h"
+	"db_query.h"
+	"draw_window.h"
+	"interface.h"
+	"user_info.h"
+	"mysql.h"
+	"safe_exit.h"
+	"wait_for_enter.h"
+	"unknown_cmd.h"
+
+1639146924 d:\c\salesapp\login_interface.h
+	"mysql.h"
+
+1639306975 d:\c\salesapp\user_info.h
+
+1639150329 source:d:\c\salesapp\query_role.c
+	<stdlib.h>
+	"db_query.h"
+	"mysql.h"
+	"db_error.h"
+	"user_info.h"
+
+1639298930 source:d:\c\salesapp\check_user_status.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+
+1639207087 source:d:\c\salesapp\find_username.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639299480 source:d:\c\salesapp\verify_user_passwd.c
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"db_error.h"
+
+1639209873 source:d:\c\salesapp\find_id.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639300404 source:d:\c\salesapp\admin_interface.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"get_input.h"
+	"interface.h"
+	"common.h"
+	"db_query.h"
+	"db_update.h"
+	"user_info.h"
+	"unknown_cmd.h"
+
+1639229941 d:\c\salesapp\admin_interface.h
+	"mysql.h"
+
+1639300442 source:d:\c\salesapp\list_users.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"db_error.h"
+	"wait_for_enter.h"
+
+1639299489 source:d:\c\salesapp\wait_for_enter.c
+	<stdio.h>
+	<stdlib.h>
+
+1639306975 d:\c\salesapp\wait_for_enter.h
+
+1639300388 source:d:\c\salesapp\add_user.c
+	<stdio.h>
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+	"db_query.h"
+	"common.h"
+	"user_info.h"
+	"get_input.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+
+1639207209 d:\c\salesapp\add_user.h
+
+1639299541 source:d:\c\salesapp\user_role_select.c
+	<stdio.h>
+	"mysql.h"
+	"get_input.h"
+	"user_info.h"
+	"common.h"
+	"interface.h"
+	"draw_window.h"
+	"unknown_cmd.h"
+	"db_update.h"
+
+1639296495 source:d:\c\salesapp\get_user_id.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+
+1639299082 source:d:\c\salesapp\del_user.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"draw_window.h"
+	"get_input.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+
+1639211039 d:\c\salesapp\del_user.h
+	"mysql.h"
+
+1639209915 d:\c\salesapp\get_user_id.h
+	"mysql.h"
+
+1639210778 source:d:\c\salesapp\get_user_role.c
+	<stdlib.h>
+	"common.h"
+	"mysql.h"
+	"db_error.h"
+
+1639217537 d:\c\salesapp\enable_user.h
+	"mysql.h"
+
+1639299122 source:d:\c\salesapp\enable_user.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+	"unknown_cmd.h"
+
+1639210778 d:\c\salesapp\get_user_role.h
+
+1639299092 source:d:\c\salesapp\disable_user.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+	"unknown_cmd.h"
+
+1639218539 d:\c\salesapp\disable_user.h
+	"mysql.h"
+
+1639298645 source:d:\c\salesapp\change_user_pwd.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"draw_window.h"
+	"get_input.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+
+1639219340 d:\c\salesapp\change_user_pwd.h
+	"mysql.h"
+
+1639309956 source:d:\c\salesapp\change_user_username.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"draw_window.h"
+	"get_input.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+
+1639220034 d:\c\salesapp\change_user_username.h
+	"mysql.h"
+
+1639221251 d:\c\salesapp\user_mod.h
+	"mysql.h"
+
+1639300430 source:d:\c\salesapp\change_user_name.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"user_info.h"
+	"unknown_cmd.h"
+
+1639299811 source:d:\c\salesapp\seller_interface.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"get_input.h"
+	"interface.h"
+	"common.h"
+	"db_query.h"
+	"db_update.h"
+	"user_info.h"
+	"unknown_cmd.h"
+
+1639231248 d:\c\salesapp\seller_interface.h
+	"mysql.h"
+
+1639310171 source:d:\c\salesapp\customer_interface.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"get_input.h"
+	"interface.h"
+	"common.h"
+	"user_info.h"
+	"db_query.h"
+	"unknown_cmd.h"
+
+1639229435 d:\c\salesapp\customer_interface.h
+	"mysql.h"
+
+1639298379 source:d:\c\salesapp\get_user_name.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639229073 d:\c\salesapp\get_user_name.h
+	"mysql.h"
+
+1639299004 source:d:\c\salesapp\customer_mod.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"get_input.h"
+	"interface.h"
+	"common.h"
+	"db_update.h"
+	"unknown_cmd.h"
+
+1639230981 d:\c\salesapp\customer_mod.h
+	"mysql.h"
+
+1639298688 source:d:\c\salesapp\add_good.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+	"db_query.h"
+	"common.h"
+	"get_input.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+
+1639232407 d:\c\salesapp\add_good.h
+	"mysql.h"
+
+1639299339 source:d:\c\salesapp\list_goods.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"db_error.h"
+	"wait_for_enter.h"
+
+1639294861 source:d:\c\salesapp\change_good_code.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"unknown_cmd.h"
+
+1639233036 source:d:\c\salesapp\find_code.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+	"db_query.h"
+
+1639299189 source:d:\c\salesapp\find_good_name.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639298379 source:d:\c\salesapp\get_good_code.c
+	<string.h>
+	"mysql.h"
+	"db_error.h"
+
+1639297691 source:d:\c\salesapp\del_good.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"common.h"
+	"draw_window.h"
+	"get_input.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+
+1639291952 d:\c\salesapp\good_mod.h
+	"mysql.h"
+
+1639300828 source:d:\c\salesapp\cashier.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"mysql.h"
+	"draw_window.h"
+	"interface.h"
+	"get_input.h"
+	"common.h"
+	"db_query.h"
+	"unknown_cmd.h"
+	"wait_for_enter.h"
+
+1639236950 d:\c\salesapp\cashier.h
+	"mysql.h"
+
+1639299412 source:d:\c\salesapp\query_good.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"unknown_cmd.h"
+
+1639299229 source:d:\c\salesapp\get_good_price.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+
+1639300828 source:d:\c\salesapp\show_good.c
+	<stdio.h>
+	"mysql.h"
+	"db_error.h"
+
+1639298645 source:d:\c\salesapp\change_good_name.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"unknown_cmd.h"
+
+1639298645 source:d:\c\salesapp\change_good_price.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"unknown_cmd.h"
+
+1639298645 source:d:\c\salesapp\change_good_purchase_price.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mysql.h"
+	"get_input.h"
+	"common.h"
+	"draw_window.h"
+	"wait_for_enter.h"
+	"db_query.h"
+	"db_error.h"
+	"unknown_cmd.h"
+
+1639299532 source:d:\c\salesapp\good_mod.c
+	<stdio.h>
+	"mysql.h"
+	"draw_window.h"
+	"get_input.h"
+	"common.h"
+	"interface.h"
+	"db_update.h"
+	"unknown_cmd.h"
+
+1639290148 d:\c\salesapp\get_input.h
+
+1639299811 d:\c\salesapp\db_update.h
+	"mysql.h"
+
+1639310612 d:\c\salesapp\interface.h
+	"mysql.h"
+
+1639299156 source:d:\c\salesapp\find_good_code.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639293224 source:d:\c\salesapp\find_user_id.c
+	<stdlib.h>
+	"mysql.h"
+	"db_error.h"
+	"common.h"
+
+1639306837 d:\c\salesapp\unknown_cmd.h
+
+1639299473 source:d:\c\salesapp\unknown_cmd.c
+	<stdio.h>
+
